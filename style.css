@@ -11,7 +11,6 @@ body {
 
 .first-section {
     background-color: #1F2937;
-
 }
 
 #header-logo {
@@ -43,7 +42,7 @@ ul {
     align-items: center;
 }
 
-.content {
+.header-content {
     display: flex;
     flex-direction: row;
     /* margin:50px; */
@@ -94,17 +93,17 @@ img {
 }
 
 /* CONTENT SECTION */
-.content1 {
+.content {
     text-align: center;
     padding: 20px 50px;
 }
 
-.content1 h3 {
+.content h3 {
     font-size: 36px;
     color: #1f2937;
 }
 
-.content1 img {
+.content img {
     width: 200px;
     border-radius: 10px;
 }
@@ -121,7 +120,7 @@ img {
     display: flex;
     justify-content: center;
     font-size: 36px;
-    padding: 3em 0;
+    padding: 2em 0;
 }
 
 .quote-section p {
@@ -130,7 +129,7 @@ img {
 
 .quote-section .author {
     font-weight: bold;
-    font-size: 25px;
+    font-size: px;
     text-align: right;
     padding-right: 30px;
 }
@@ -167,7 +166,7 @@ img {
 }
 
 .cta button {
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 /* FOOTER SECTION */
