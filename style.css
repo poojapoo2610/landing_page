@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Roboto slab', serif;
 }
@@ -13,9 +7,19 @@ body {
     background-color: #1F2937;
 }
 
-#header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right,
+.navbar-left {
+    padding-top: 1rem;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .header-link {
@@ -24,45 +28,34 @@ body {
     margin: 10px;
 }
 
-.navbar {
-    display: flex;
-    flex-direction: row;
-}
-
 ul {
     display: flex;
     flex-direction: row;
 }
 
-.navbar-right,.navbar-left {
-    padding-top: 1rem;
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-}
-
 .header-content {
     display: flex;
     flex-direction: row;
-    /* margin:50px; */
+    margin: 20px;
 }
 
-h1 {
-    font-size: 43px;
-    color: #F9FAF8;
-    font-weight: bolder;
+.content-left h2 {
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
 }
 
-.content-left  {
+.content-left {
     display: flex;
     flex-direction: column;
-    width:50%; 
+    width: 500px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-left: 150px;
 }
+
 .content-right {
     display: flex;
     flex-direction: column;
@@ -70,29 +63,32 @@ h1 {
     align-items: center;
     flex-direction: column;
     width: 50%;
-} 
+}
 
-.p-first{
+.p-first {
     font-size: 18px;
-    margin-left: 110px;
-    color :#F9FAF8;
+    color: #F9FAF8;
 }
 
 img {
-    margin: 30px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 35px;
 }
 
-.sign-up-first-section{
-    margin :30px;
-    background-color:#3882f6;
-    color:white;
-    width:100px;
-    height:25px;
-    border:1px #3882f6;
+.sign-up-first-section {
+    margin: 30px;
+    background-color: #3882f6;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border: none;
     border-radius: 10px;
 }
 
+
 /* CONTENT SECTION */
+
 .content {
     text-align: center;
     padding: 20px 50px;
@@ -114,7 +110,9 @@ img {
     gap: 30px;
 }
 
+
 /* QUOTE SECTION */
+
 .quote-section {
     background-color: #e5e7eb;
     display: flex;
@@ -137,6 +135,7 @@ img {
 .quote-section .author span {
     font-style: italic;
 }
+
 
 /* CTA SECTION */
 
@@ -169,7 +168,9 @@ img {
     border: 3px solid white;
 }
 
+
 /* FOOTER SECTION */
+
 .footer {
     padding: 2em;
     text-align: center;
